@@ -1,0 +1,18 @@
+{
+    "invalidEmailAndInvalidPassword":{
+        "email":"khhoaafhfjah@gmail.com",
+        "password":"fhalfjadlkjfkajf"
+    },
+    "invalidEmailAndValidPassword":{
+        "email":"vvkzjvklzjcjzajkjafj@gmail.com",
+        "password":"fhalfjadlkjfkajf"
+    },
+    "validEmailAndInvalidPassword":{
+        "email":"testherro@gmail.com",
+        "password":"fhalfjadlkjfkajf"
+    },
+    "validEmailAndValidPassword":{
+        "email":"testherro@gmail.com",
+        "password":"123456" 
+    }
+}
