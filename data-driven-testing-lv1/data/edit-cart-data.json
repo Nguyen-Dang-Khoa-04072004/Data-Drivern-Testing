@@ -1,0 +1,9 @@
+{
+    "outOfStockProductName":"HTC Touch HD",
+    "outOfStockProductId":28,
+    "inStockProductName":"iPod Nano",
+    "inStockProductId":36,
+    "validQuantity":20,
+    "inValidQuantity":-1,
+    "outRangeQuantity":2147483648
+}

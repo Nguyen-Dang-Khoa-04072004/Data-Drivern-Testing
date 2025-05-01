@@ -39,8 +39,9 @@ class UpdateAmountOfProductFeatureSuite(unittest.TestCase):
         productItem, isProductItemPresent = self.find_element(how=By.XPATH,value='''//button[@onclick="cart.add('28');"]''')
         self.assertTrue(isProductItemPresent)
         productItem.click()
-        self.driver.implicitly_wait(50)
-        self.find_element(how=By.LINK_TEXT,value="View Cart")
+        viewCartButton, isViewCartButtonPresent  = self.find_element(how=By.LINK_TEXT,value="View Cart")
+        self.assertTrue(isViewCartButtonPresent)
+        viewCartButton.click()
         self.driver.implicitly_wait(50)
     def modify_quantity_and_click_update(self, value : int):
         self.driver.get("https://ecommerce-playground.lambdatest.io/index.php?route=checkout/cart")
