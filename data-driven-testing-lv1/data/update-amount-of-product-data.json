@@ -1,0 +1,10 @@
+{
+    "productName":"HTC Touch HD",
+    "lowerBound":1,
+    "belowLowerBound":0,
+    "aboveLowerBound":2,
+    "middleValue":100,
+    "belowUpperBound":2147483646,
+    "upperBound":2147483647,
+    "aboveUpperBound": 2147483647
+}
