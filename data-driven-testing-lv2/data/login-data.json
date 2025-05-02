@@ -1,0 +1,37 @@
+{
+    "loginUrl":"https://ecommerce-playground.lambdatest.io/index.php?route=account/login",
+    "logoutUrl":"https://ecommerce-playground.lambdatest.io/index.php?route=account/logout",
+    "loginSuccessUrl":"https://ecommerce-playground.lambdatest.io/index.php?route=account/account",
+    "emailInput":{
+        "by":"ID",
+        "value":"input-email"
+    },
+    "passwordInput":{
+        "by":"ID",
+        "value":"input-password"
+    },
+    "loginButton":{
+        "by":"XPATH",
+        "value":"//input[@value='Login']"
+    },
+    "alertDiv":{
+        "by":"CLASS",
+        "value":"alert.alert-danger.alert-dismissible"
+    },
+    "invalidEmailAndInvalidPassword":{
+        "email":"khhoaafhfjah@gmail.com",
+        "password":"fhalfjadlkjfkajf"
+    },
+    "invalidEmailAndValidPassword":{
+        "email":"vvkzjvklzjcjzajkjafj@gmail.com",
+        "password":"fhalfjadlkjfkajf"
+    },
+    "validEmailAndInvalidPassword":{
+        "email":"testherro@gmail.com",
+        "password":"fhalfjadlkjfkajf"
+    },
+    "validEmailAndValidPassword":{
+        "email":"testherro@gmail.com",
+        "password":"123456" 
+    }
+}

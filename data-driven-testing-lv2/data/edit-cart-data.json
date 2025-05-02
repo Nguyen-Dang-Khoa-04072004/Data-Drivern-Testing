@@ -1,0 +1,57 @@
+{   
+    "homeUrl":"https://ecommerce-playground.lambdatest.io/index.php?route=common/home",
+    "searchUrl":"https://ecommerce-playground.lambdatest.io/index.php?route=product%2Fsearch",
+    "cartUrl":"https://ecommerce-playground.lambdatest.io/index.php?route=checkout/cart",
+    "checkoutUrl":"https://ecommerce-playground.lambdatest.io/index.php?route=checkout/checkout",
+    "viewCartButton":{
+        "by":"LINK",
+        "value":"View Cart"
+    },
+    "checkoutButton":{
+        "by":"XPATH",
+        "value":"//a[contains(text(),'Checkout')]" 
+    },
+    "continueShoppingButton":{
+        "by":"LINK",
+        "value":"Continue Shopping" 
+    }, 
+    "removeButton":{
+        "by":"CLASS",
+        "value":"btn.btn-danger" 
+    },
+    "quantityInput":{
+        "by":"CLASS",
+        "value":"form-control" 
+    },  
+    "updateButton":{
+        "by":"CSS",
+        "value":"button.btn.btn-primary" 
+    },   
+    "alertDiv":{
+        "by":"CSS",
+        "value":"div.alert.alert-success.alert-dismissible" 
+    },
+    "alertDivDanger":{
+        "by":"CSS",
+        "value":"div.alert.alert-danger.alert-dismissible" 
+    },
+    "pageTitle":{
+        "by":"XPATH",
+        "value":"//div[@id='content']/h1"
+    },
+    "content":{
+       "by":"XPATH",
+        "value":"//div[@id='content']/p" 
+    },
+    "products":{
+        "by":"XPATH",
+        "value":"//div[@id='content']/form/div/table/tbody/tr/td/a" 
+    }, 
+    "outOfStockProductName":"HTC Touch HD",
+    "outOfStockProductId":28,
+    "inStockProductName":"iPod Nano",
+    "inStockProductId":36,
+    "validQuantity":20,
+    "inValidQuantity":-1,
+    "outRangeQuantity":2147483648
+}

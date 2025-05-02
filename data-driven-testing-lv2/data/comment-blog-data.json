@@ -1,0 +1,41 @@
+{
+    "blogUrl":"https://ecommerce-playground.lambdatest.io/index.php?route=extension/maza/blog/article&article_id=35",
+    "nameInput":{
+        "by":"ID",
+        "value":"input-name"
+    },
+    "emailInput":{
+        "by":"ID",
+        "value":"input-email"
+    },
+    "commentInput":{
+        "by":"ID",
+        "value":"input-comment"
+    },
+    "commentButton":{
+        "by":"ID",
+        "value":"button-comment"
+    },
+    "alertDiv":{
+        "by":"XPATH",
+        "value":"//form[@id='form-comment']/div"
+    },
+    "warning1":{
+        "by":"XPATH",
+        "value":"//form[@id='form-comment']/div/div"
+    },
+    "warning2":{
+        "by":"XPATH",
+        "value":"//form[@id='form-comment']/div[2]/div"
+    },
+    "warning3":{
+        "by":"XPATH",
+        "value":"//form[@id='form-comment']/div[3]/div"
+    },
+    "validName":"superman",
+    "inValidName":"su",
+    "validEmail":"testherro@gmail.com",
+    "inValidEmail":"fhask",
+    "validComment":"dinh noc kich tran bay phap phoi",
+    "inValidComment":"fakjhfasjhfdj"
+}
